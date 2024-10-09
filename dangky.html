@@ -1,103 +1,78 @@
-
-<!DOCTYPE html>
-<html lang="vi">
-  <head>
-    <title>Đăng Ký</title>
-    <meta charset="utf-8" />
-    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
-  <body>
-    <header>
-        <img src="/data/images/header-img1.png" alt="">
-        <img src="/data/images/header-img2.png" alt="">
-        <img src="/data/images/header-img3.png" alt="">
-        <img src="../images/logo.png" alt="">
-      <nav>
-        <a href="trangchu.html">Trang Chủ</a>
-        <a href="gioithieu.html">Giới Thiệu</a>
-        <a href="sanpham.html">Sản Phẩm</a>
-        <a href="tintuc.html">Tin Tức</a>
-        <a href="dangnhap.html">Đăng Nhập</a>
-        <a href="dangky.html">Đăng Ký</a>
-        <a href="lienhe.html">Liên Hệ</a>
-      </nav>
-    </header>
-    <main > 
-      <article >
-        <form method="post " enctype="multipart/form-data">
-          <fieldset >
-            <legend><h2>Đăng Ký</h2></legend>
-            <table>
-              <tr>
-                <td>Email</td>
-                <td>
-                  <input
-                    type="text"
-                    name="email"
-                    placeholder="Vui lòng nhập email"
-                  />
-                </td>
-              </tr>
-              <tr>
-                <td>Mật Khẩu</td>
-                <td>
-                  <input
-                    type="password"
-                    name="psw"
-                    placeholder="Vui lòng nhập mật khẩu"
-                  />
-                </td>
-              </tr>
-              <tr>
-                <td>Nhập lại mật khẩu</td>
-                <td>
-                  <input
-                    type="password"
-                    name="psw2"
-                    placeholder="Vui lòng nhập mật khẩu "
-                  />
-                </td>
-              </tr>
-              <tr>
-                <td>Cấp độ thành viên</td>
-                <td>
-                  <input type="radio" name="chon" /> Bạc
-                  <input type="radio" name="chon" /> Vàng
-                  <input type="radio" name="chon" /> Bạch Kim
-                </td>
-              </tr>
-              <tr>
-                <td>Ảnh đại diện</td>
-                <td>
-                  <input type="file" />
-                </td>
-              </tr>
-              <tr>
-                <td colspan="2">
-                  Thông qua việc tạo tài khoản, bạn đồng ý với
-                  <a href="">Điều khiển & Quyền riêng tư của chúng tôi.</a>
-                </td>
-              </tr>
-              <tr>
-                <td colspan="2">
-                  <input type="reset" value="Hủy">
-                  <input type="submit" value="Đăng Ký">
-                </td>
-              </tr>
-            </table>
-          </fieldset>
-        </form>
-      </article>
-    </main>
-    <footer>
-      <div>
-        &copy;2021 Bản quyền thuộc về FreeezeVN.
-        <a href="">Facebook</a>
-        <a href="">twiter</a>
-        <a href="">pinterest</a>
-        <a href="/Nguyễn Đạt Minh-b2305588/sanpham.html">Về Đầu Trang</a>
-      </div>
-    </footer>
-  </body>
+<!doctype html>
+<html lang="vi-VN">
+<head>
+	<meta charset="UTF-8">
+	<title>Đăng Ký </title>
+	<link href="images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="stylesSS.css">
+</head>
+<body>
+	<header>
+		<a id="#top" href="trangchu.html" ><img src="../lab2_01/images/logo.png" alt=""></a>
+		<img id="img1" src="../lab2_01/images/header-img1.png" alt="" >
+		<img id="img2" src="../lab2_01/images/header-img2.png" alt="" >
+		<img id="img3" src="../lab2_01/images/header-img3.png" alt="" >
+				
+		<nav>
+			<a href="trangchu.html">Trang Chủ</a>					
+			<a href="gioithieu.html">Giới Thiệu</a>
+			<a href="sanpham.html">Sản Phẩm</a>
+			<a href="tintuc.html">Tin Tức</a>
+			<a href="dangnhap.html">Đăng Nhập</a>
+			<a href="dangky.html">Đăng Ký</a>
+			<a href="lienhe.html">Liên Hệ</a>
+			<div class="search-container">
+				<form method="get" action="#">
+					<div class="input-container">
+				<div class="r">					
+					<input id="search" class="search-input" type="text" placeholder="Nhập nội dung cần tìm..." name="search">
+					<i class="fa fa-search icon-white"></i> 
+                     <i class="fa fa-shopping-cart icon-pink"></i>
+				</div>
+				</form>		
+			</div>			
+		</nav>
+		
+	</header>
+	<main>		
+		<form action="#" method="post" style="max-width:500px;margin:auto" enctype="multipart/form-data">
+		  <h1>ĐĂNG KÝ</h1>
+		  <div class="">
+				<i class="fa fa-envelope icon-white"></i>
+				<input class="input-field" type="text" placeholder="Vui lòng nhập email" name="email">
+		  </div>		  
+		  <div class="">
+				<i class="fa fa-key icon-white"></i>
+				<input class="input-field" type="password" placeholder="Vui lòng nhập mật khẩu" name="psw">
+		  </div>
+		  <div class="">
+				<i class="fa fa-key icon-white"></i>
+				<input class="input-field" type="password" placeholder="Vui lòng nhập lại mật khẩu" name="psw2">
+		  </div>
+			<div class="">
+				<i class="fa fa fa-users icon-white"></i>
+				<input class="input-field" checked type="radio" id="type_silver" name="memberType" value="1">
+				<label for="type_silver">Bạc</label>
+				<input class="input-field" type="radio" id="type_gold" name="memberType" value="1">
+				<label for="type_gold">Vàng</label>
+				<input class="input-field" type="radio" id="type_platinum" name="memberType" value="1">
+				<label for="type_platinum">Bạch Kim</label>
+		  </div>
+		  <div class="">
+				<i class="fa fa-id-badge icon-white"></i>
+				<input class="input-field" id="avatar" type="file"  name="avatar">
+		  </div>		  
+		  <div>Thông qua việc tạo tài khoản, bạn đồng ý với<a href="#"> Điều khoản & Quyền riêng tư của chúng tôi</a>.</div>
+		  <button type="submit" class="btn">Đăng Ký</button><button type="reset" class="btn">Hủy</button>
+		</form>			
+	</main>
+	<footer>			
+		<p>&copy; 2021 Bản quyền thuộc về FreeezeVN. 
+			<a href="#" class="social-icon"><i class="fa fa-facebook-f"></i></a>
+			<a href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
+			<a href="#" class="social-icon"><i class="fa fa-pinterest"></i></a>
+			<a href="#top" class="gotop"><img src="images/top.png" width="60"></a></p>
+	</footer>
+</body>
 </html>
